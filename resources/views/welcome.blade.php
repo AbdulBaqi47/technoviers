@@ -11,7 +11,7 @@
                                 Let's get rid of the complicated<br>
                                 so you can start selling faster</h2>
                             <div class="buttons">
-                                <a href="{{route('apply_as_techie')}}" class="btn btn-learn">Apply As Remote Developer</a>
+                                {{-- <a href="{{route('apply_as_techie')}}" class="btn btn-learn">Apply As Remote Developer</a> --}}
                                 {{-- <a href="#" class="btn btn-learn">View Featurese</a> --}}
                             </div>
                         </div>
@@ -34,7 +34,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-4 col-xs-6 col-sm-6">
+                    <div class="col-md-4 col-xs-12  col-sm-16">
                         <div class="feature-block text-center">
                             <div class="icon-box">
                                 <i class="ion-easel"></i>
@@ -47,7 +47,7 @@
                                <b> ― Mohamed Saad</b></p>
                         </div>
                     </div>
-                    <div class="col-md-4 col-xs-6 col-sm-6">
+                    <div class="col-md-4  col-xs-12 col-sm-6">
                         <div class="feature-block text-center">
                             <div class="icon-box">
                                 <i class="ion-paintbucket"></i>
@@ -58,7 +58,7 @@
                                 <b> - Gore Verbinski </b></p>
                         </div>
                     </div>
-                    <div class="col-md-4 col-xs-6 col-sm-6">
+                    <div class="col-md-4 col-xs-12 col-sm-6">
                         <div class="feature-block text-center">
                             <div class="icon-box">
                                 <i class="ion-paintbrush"></i>
@@ -228,7 +228,7 @@
                         <p>“A designer knows he has achieved perfection not when there is nothing left to add,<br>
                              but when there is nothing left to take away.”</p>
                     </div>
-                    <div class="col-md-4 col-sm-4 col-xs-6">
+                    <div class="col-md-4 col-sm-4 col-xs-12">
                         <div class="block wow fadeInLeft" data-wow-delay=".3s">
                             <img src="img/ABK.jpg" alt="">
                             <div class="team-overlay">
@@ -242,7 +242,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4  col-sm-4 col-xs-6">
+                    <div class="col-md-4  col-sm-4 col-xs-12">
                         <div class="block wow fadeInLeft" data-wow-delay=".6s">
                             <img src="img/MATI.jpg" alt="">
                             <div class="team-overlay">
@@ -255,7 +255,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4  col-sm-4 col-xs-6">
+                    <div class="col-md-4  col-sm-4 col-xs-12">
                         <div class="block wow fadeInLeft" data-wow-delay=".9s">
                             <img src="img/NOMI.jpg" alt="">
                             <div class="team-overlay">
