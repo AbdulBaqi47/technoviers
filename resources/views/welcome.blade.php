@@ -37,36 +37,34 @@
                     <div class="col-md-4 col-xs-12  col-sm-16">
                         <div class="feature-block text-center">
                             <div class="icon-box">
-                                <i class="ion-easel"></i>
+                                <i class="fa-solid fa-laptop-code"></i>
+                                   {{-- <i class="ion-easel"></i> --}}
                             </div>
-                            <h4 class="wow fadeInUp" data-wow-delay=".3s">Responsive Design</h4>
-                            <p class="wow fadeInUp" data-wow-delay=".5s">“A successful website does three things:<br>
-                                It attracts the right kinds of visitors.<br>
-                                Guides them to the main services or product you offer.<br>
-                                Collect Contact details for future ongoing relation.”<br>
-                               <b> ― Mohamed Saad</b></p>
+                            <h4 class="wow fadeInUp" data-wow-delay=".3s">E-Commerce Websites</h4>
+                            <p class="wow fadeInUp" data-wow-delay=".5s">We create brilliant websites that are manageable,
+                                 fully functional, secure, and scalable enough to help you separate yourself from the competition.<br>
+                               <b> ― Professional Developers</b></p>
                         </div>
                     </div>
                     <div class="col-md-4  col-xs-12 col-sm-6">
                         <div class="feature-block text-center">
                             <div class="icon-box">
-                                <i class="ion-paintbucket"></i>
+                                <i class="fa-solid fa-microchip"></i>
                             </div>
-                            <h4 class="wow fadeInUp" data-wow-delay=".3s">Outstanding Animation</h4>
-                            <p class="wow fadeInUp" data-wow-delay=".5s">“Nothing's occurring in animation<br>
-                                 - you manufacture everything.”<br>
-                                <b> - Gore Verbinski </b></p>
+                            <h4 class="wow fadeInUp" data-wow-delay=".3s">DevOps</h4>
+                            <p class="wow fadeInUp" data-wow-delay=".5s">As a top-rated DevOps team, we automate inefficiencies while strengthening your software's quality and security. Are you ready to migrate?<br>
+                                <b> - Mern Developers </b></p>
                         </div>
                     </div>
                     <div class="col-md-4 col-xs-12 col-sm-6">
                         <div class="feature-block text-center">
                             <div class="icon-box">
-                                <i class="ion-paintbrush"></i>
+                                <i class="fa-solid fa-toolbox"></i>
                             </div>
-                            <h4 class="wow fadeInUp" data-wow-delay=".3s">Unlimited Colors</h4>
-                            <p class="wow fadeInUp" data-wow-delay=".5s">“Clouds come floating into my life,<br>
-                                 no longer to carry rain or usher storm,<br> but to add color to my sunset sky.”<br>
-                              <b>  ― Rabindranath Tagore, Stray Birds</b>
+                            <h4 class="wow fadeInUp" data-wow-delay=".3s">Support & Maintenance</h4>
+                            <p class="wow fadeInUp" data-wow-delay=".5s">We know the difference between success and excellence which is why we only provide professional work.<br>
+                                 To ensure credibility, we offer QA & testing as a separate service<br>
+                              <b>  ― Best QA We Have</b>
                             </p>
                         </div>
                     </div>
@@ -608,6 +606,33 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact-form">
+            <div class="container">
+                <div class="row">
+                    <div class="title">
+                        <h2>CONTACT US</h2>
+                        <p>It would be great to hear from you! If you got any questions,<br> please do not hesitate to send us a message. We are looking forward to hearing from you! We reply within 24 hours!</p>
+                    </div>
+                    <div class="col-md-6 col">
+                        <!-- map -->
+                        {{-- <div class="map">
+                            <div id="googleMap-"></div>
+                        </div> --}}
+                        <div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=lahore&t=&z=10&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><br><style>.mapouter{position:relative;text-align:right;height:100%;width:100%;}</style><style>.gmap_canvas {overflow:hidden;background:none!important;height:100%;width:100%;}</style></div></div>
+                        <!--/map-->
+
+                    </div>
+                    <div class="col-md-6">
+                        <form>
+                            <input type="text" class="form-control" placeholder="Name">
+                            <input type="text" class="form-control" placeholder="Email">
+                            <textarea class="form-control" rows="3" placeholder="Message"></textarea>
+                            <button class="btn btn-default" type="submit">SEND</button>
+                        </form>
                     </div>
                 </div>
             </div>

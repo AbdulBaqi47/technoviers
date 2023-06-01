@@ -1,17 +1,23 @@
 <footer>
     <div class="container">
         <div class="row">
-            <div id="contact-form">
+            <div id="aboutus-form">
                 <div class="col-md-6">
                     <div class="block">
                         <a href="#"><img src="{{url('img/logo.png')}}"  height="80" width="250"  alt=""></a>
-                        <p>All rights reserved © 2023</p>
+                        <p>©Copyright {{date("Y");}} Technoviers, Inc All Rights Reserved</p>
                     </div>
-                    
+                    <div class="row" style="margin-top: 10%;">
+                        <div class="col-md-6">
+                            <a class="instagram" aria-label="Instagram" href="https://www.instagram.com/mr.abk47" target="_blank"><i class="fab fa-instagram text-white" style="font-size:48px;"></i></a>
+                            <a class="LinkedIn" style="font-size:48px;margin-left: 5%;" aria-label="LinkedIn" href="https://www.linkedin.com/in/abdul-baqi-28b45a212" target="_blank"><i class="fa-brands fa-linkedin" style="font-size:48px;"></i></a>
+                        </div>
+
+                    </div>
                 </div>
                 <div class="col-md-6">
                     <div class="title" style="padding: 0;">
-                        <h2>CONTACT US</h2>
+                        <h2>ABOUT US</h2>
                     </div>
                     <div class="row">
                         <div class="col-md-12">
@@ -23,7 +29,7 @@
                 </div>
             </div>
         </div>
-            
+
     </div>
 </footer>
 </div>

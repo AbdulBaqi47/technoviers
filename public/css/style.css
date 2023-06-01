@@ -788,6 +788,44 @@ header .navbar {
   color: #3988b7;
   border-color: #3988b7;
 }
+#aboutus-form {
+  padding: 50px 0;
+  /* background:#f9f9f9; */
+}
+#aboutus-form form input,
+#aboutus-form form textarea {
+  padding: 24px 20px 0;
+  border-color: #3988b7;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #97a0af;
+  box-shadow: none;
+}
+#aboutus-form form input {
+  margin-bottom: 15px;
+  padding: 24px 27px;
+}
+#aboutus-form form textarea {
+  margin-bottom: 28px;
+  min-height: 172px;
+  resize: none;
+}
+#aboutus-form form button {
+  float: right;
+  color: #fff;
+  font-size: 16px;
+  padding: 17px 43px;
+  background: #3988b7;
+  border-radius: 40px;
+  font-weight: 600;
+  border-color: transparent;
+  transition: 0.3s;
+}
+#aboutus-form form button:hover {
+  background: none;
+  color: #3988b7;
+  border-color: #3988b7;
+}
 #footer-top iframe {
   width: 100%;
   height: 385px;

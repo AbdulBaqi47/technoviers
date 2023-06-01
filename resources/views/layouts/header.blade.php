@@ -22,6 +22,7 @@
 	<link rel="stylesheet" href="{{url('css/icon.css')}}">
 	<link rel="stylesheet" href="{{url('css/style.css')}}">
 	<link rel="stylesheet" href="{{url('css/responsive.css')}}">
+    <script src="https://kit.fontawesome.com/f0d7d1b37a.js" crossorigin="anonymous"></script>
     <style>
         #logo-image{
         height: 80px;
@@ -62,6 +63,7 @@
 					{{-- <li><a href="#blog">Blog</a></li> --}}
 					{{-- <li><a href="#testimonial">Testimonial</a></li> --}}
 					<li><a href="#contact-form">Contact</a></li>
+					<li><a href="#aboutus-form">About</a></li>
                     {{-- @guest
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
